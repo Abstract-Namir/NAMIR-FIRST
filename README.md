@@ -6,14 +6,14 @@ Author- Namir Khan
 COMMANDS in GITHUB
 1)  CLONE- cloning a repo from remote(GITHUB) in our local machine(laptop/PC)
     CMD- git clone <-repo link-> REMOTE->LOCAL
-  <br>
+
 2)  LS(LIST FILES)- lists all the files 
     ls in the TERMINAL to access hidden files (ls -a) OR gci -Force
-  <br>
+  
 3)    CD(CHANGE DIRECTORY)- going from one folder to another folder CMD-cd <-file name-> in the TERMINAL
       to get out of existing directory CMD- cd ..
       to create a new directory CMD- mkdir new <-folder name->  
-  <br>
+
 4)  STATUS- display the state of the code
     CMD- git status
     4 TPYES OF STATUS- 
@@ -26,7 +26,8 @@ COMMANDS in GITHUB
     to add all files at once CMD- git add .
 
     CHANGED FILES -----> ADD IN WORKING DIRECTORY -----> COMMITED
-  <br>
+
+
 5) To Initialize a Folder in Terminal:-
 
 ->GET OUT OF THE CURRENT FOLDER CMD- cd ..
