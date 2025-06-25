@@ -1,5 +1,7 @@
 NAMIR-FIRST
+
 This is my first Git repository
+
 Author – Namir Khan
 
 COMMANDS IN GITHUB
@@ -86,7 +88,7 @@ Create a new repository.
 ----------------------------
 
 6) BRANCH COMMANDS
-----------------------------
+
 ➤ View Branches
 
        git branch               # Local branches  
