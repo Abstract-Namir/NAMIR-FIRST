@@ -155,9 +155,13 @@ Steps to Resolve:
 ➤Open the conflicted file. You'll see:
 
 <<<<<<< HEAD
+
 code from current branch
+
 =======
+
 code from merging branch
+
 >>>>>>> branch-name
 
 ➤Fix the file → Remove the markers.
