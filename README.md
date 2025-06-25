@@ -5,22 +5,26 @@ Author – Namir Khan
 COMMANDS IN GITHUB
 
 1) CLONE
+----------------------------
 Purpose: Cloning a repo from remote (GitHub) to your local machine.
 Command:  git clone <repo-link>     # REMOTE → LOCAL
 
 2) LS (List Files)
+----------------------------
 Purpose: Lists all the files in the terminal.
 Commands: ls        # Shows visible files  
           ls -a     # Shows hidden files (Linux/macOS)  
           gci -Force  # Shows hidden files (Windows PowerShell)
 
-3) CD (Change Directory)
+5) CD (Change Directory)
+----------------------------
 Purpose: Navigate between folders.
 Commands: cd <folder-name>        # Go into a folder  
           cd ..                   # Move out of current folder  
           mkdir <folder-name>     # Create a new folder
 
-4) STATUS
+7) STATUS
+----------------------------
 Purpose: Display the current state of your working directory.
 Command: git status
 ### 🟡 4 Types of Git Status
@@ -37,6 +41,7 @@ To add all files at once Command: git add .
 Flow: CHANGED FILES → STAGED (added) → COMMITTED
 
 5) INITIALIZING A NEW FOLDER FOR GIT
+----------------------------
 Steps: cd ..                                 # Exit current directory (if needed)  
        mkdir <new-folder>                    # Create a new folder  
        cd <new-folder>                       # Enter the folder  
@@ -49,7 +54,8 @@ Then on GitHub:
        git branch -M main                    # Rename current branch to main  
        git push origin main                 # Push from LOCAL → REMOTE
 
-6) BRANCH COMMANDS
+7) BRANCH COMMANDS
+----------------------------
 ➤ View Branches
        git branch               # Local branches  
        git branch -a            # All branches (local + remote)  
@@ -78,7 +84,8 @@ Used to propose and collaborate on changes before merging.
 ➤ Pull Branch
        git pull origin main    # REMOTE → LOCAL
 
-7) RESOLVING MERGE CONFLICTS
+9) RESOLVING MERGE CONFLICTS
+----------------------------
 Occurs when two branches modify the same line. Git needs your help.
 Steps to Resolve:       
 ➤Run:
@@ -98,6 +105,7 @@ git add <file>
        git merge --abort
 
 8) UNDOING CHANGES
+----------------------------
 ➤CASE 1: Undo STAGED changes
        git reset <file>      # Unstage single file  
        git reset             # Unstage all
@@ -114,7 +122,8 @@ CASE 4: HARD RESET to previous state
 If you mess up:
        git reflog       
 
-9) FORK
+10) FORK
+----------------------------
 A fork is a copy of someone else’s GitHub repository under your own account. You can:
 Work independently
 Contribute back via pull requests
